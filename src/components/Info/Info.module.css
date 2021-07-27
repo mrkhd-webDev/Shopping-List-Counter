@@ -1,0 +1,35 @@
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 16px 0;
+}
+
+.infoTotal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--main-font-color);
+  font-size: 12px;
+}
+
+.infoTotal > p {
+  font-weight: bold;
+}
+
+.delete {
+  background-color: unset;
+  border: none;
+  padding: unset;
+  color: var(--danger-font-color);
+  font-size: 12;
+  font-weight: bold;
+  box-shadow: 0 1px 0 unset;
+  cursor: pointer;
+}
+
+.delete:active {
+  transform: translateY(1px);
+  box-shadow: none;
+}
