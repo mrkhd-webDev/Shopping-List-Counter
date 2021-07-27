@@ -14,3 +14,4 @@
 
 &copy; wegodev | version 1.1.0
 # Shopping-List-Counter
+# Shopping-List-Counter
